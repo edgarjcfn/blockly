@@ -66,7 +66,7 @@
       <td height="99%" width="20%" id="output_area">
         <h3 class="output_title">
           Output:
-          <a href="#"><img src="../../media/1x1.gif" class="trash icon21"></a>
+          <a href="#" id="clear_output"><img src="../../media/1x1.gif" class="trash icon21"></a>
         </h3>
         <pre id="output">
         </pre>
@@ -214,6 +214,13 @@
     <category name="{catText}" colour="160">
       <block type="text"></block>
       <block type="text_join"></block>
+      <block type="text_print">
+        <value name="TEXT">
+          <shadow type="text">
+            <field name="TEXT">abc</field>
+          </shadow>
+        </value>
+      </block>
       <block type="text_append">
         <value name="TEXT">
           <shadow type="text"></shadow>
@@ -267,13 +274,6 @@
         </value>
       </block>
       <block type="text_trim">
-        <value name="TEXT">
-          <shadow type="text">
-            <field name="TEXT">abc</field>
-          </shadow>
-        </value>
-      </block>
-      <block type="text_print">
         <value name="TEXT">
           <shadow type="text">
             <field name="TEXT">abc</field>
