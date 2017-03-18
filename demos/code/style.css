@@ -123,6 +123,7 @@ pre.content {
 }
 #content_blocks {
   padding: 0;
+  width:80%;
 }
 .blocklySvg {
   border-top: none !important;
@@ -160,4 +161,32 @@ button {
 }
 .run {
   background-position: -42px 0px;
+}
+
+/* Output */
+
+h3.output_title {
+  margin: 0px 0px 0px 10px;
+  border:0;
+  padding:px;
+  width:100%;
+  height:5%;
+
+}
+
+.output_title a {
+  float:right;
+  margin-right: 40px;
+}
+
+#output {
+  margin:10px;
+  border:0;
+  padding:10px;
+  width:80%;
+  height:90%;
+  text-align: left;
+  background-color: #ccc;
+  font-size:14pt;
+  overflow:scroll;
 }
